@@ -18,26 +18,42 @@ function getPosts() {
 function submitPost() {
   const title = document.querySelector('#title').value;
   const body = document.querySelector('#body').value;
+  const id = document.querySelector('#id').value;
+
+  const data = {
+    title: title,
+    body,
+    body,
+  };
 
   if (title === '' || body === '') {
     ui.showAlert('Please fill in all fields', 'alert alert-danger');
   } else {
-    const data = {
-      title: title,
-      body,
-      body,
-    };
+    if (id === '') {
+      //create post
+      http
+        .post('http://localhost:3000/posts', data)
+        .then(() => {
+          ui.showAlert('Post added', 'alert alert-success');
+          ui.clearFields();
 
-    http
-      .post('http://localhost:3000/posts', data)
-      .then(() => {
-        ui.showAlert('Post added', 'alert alert-success');
-        ui.clearFields();
+          getPosts();
+          //console.log(data); //data that was submitted to db.json
+        })
+        .catch((err) => console.log(err));
+    } else {
+      //update post
+      http
+        .put(`http://localhost:3000/posts/${id}`, data)
+        .then(() => {
+          ui.showAlert('Post updated', 'alert alert-success');
+          ui.changeFormState('add');
 
-        getPosts();
-        //console.log(data); //data that was submitted to db.json
-      })
-      .catch((err) => console.log(err));
+          getPosts();
+          //console.log(data); //data that was submitted to db.json
+        })
+        .catch((err) => console.log(err));
+    }
   }
 }
 
