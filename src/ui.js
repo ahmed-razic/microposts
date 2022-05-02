@@ -30,7 +30,32 @@ class UI {
     });
 
     this.post.innerHTML = output;
-    console.log('in showposts');
+  }
+
+  showAlert(message, className) {
+    this.hideAlert();
+
+    const div = document.createElement('div');
+    div.className = className;
+    div.appendChild(document.createTextNode(message));
+    const container = document.querySelector('.postContainer');
+    container.insertBefore(div, posts);
+
+    setTimeout(() => {
+      this.hideAlert();
+    }, 3000);
+  }
+
+  hideAlert() {
+    const currentAlert = document.querySelector('.alert');
+    if (currentAlert) {
+      currentAlert.remove();
+    }
+  }
+
+  clearFields() {
+    this.titleInput.value = '';
+    this.bodyInput.value = '';
   }
 }
 
