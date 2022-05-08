@@ -16,7 +16,7 @@
 
 ## About
 
-<p>Microposts is small web app done in plan JS, using bootstrap css library, json-server, webapack and babel. This is the final exercise in JavaScript course.</p>
+<p>Microposts is small web app done in plain JS, using bootstrap, json-server, webapack and babel. This is the final exercise in JavaScript course.</p>
 
 <p>Working app is deployed on Netlify</p>
 
