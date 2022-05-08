@@ -22,12 +22,12 @@
 
 ## Technology
 
-Vanila JS (classes)
-Bootstrap
-Webpack
-Babel
-JSON-Server
-fetch with async/await
+<p>Vanila JS (classes)</p>
+<p>Bootstrap</p>
+<p>Webpack</p>
+<p>Babel</p>
+<p>JSON-Server</p>
+<p>fetch with async/await</p>
 
 ## Screenshot
 
