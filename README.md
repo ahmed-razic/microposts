@@ -18,7 +18,7 @@
 
 <p>Microposts is small web app done in plan JS, using bootstrap css library, json-server, webapack and babel. This is the final exercise in JavaScript course.</p>
 
-<p>Working app is deployed on Netlify</p>
+<p>Working app is deployed on Netlify. Run "npm run json:server" to start local server</p>
 
 ## Technology
 
