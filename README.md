@@ -1,6 +1,13 @@
 # MicroPosts
 
+
 ---
+
+## About
+
+<p>Microposts is small web app done in plain JS, using bootstrap, json-server, webapack and babel. This is the final exercise in JavaScript course.</p>
+
+<p>Working app is deployed on Netlify. Run "npm run json:server" to start local server.</p>
 
 <div>
 <a href="https://harmonious-nasturtium-d540d5.netlify.app/" target="_blank" rel="noopener noreferrer"
@@ -11,14 +18,6 @@
     font-size:0.85rem;
     font-weight:600;">Deployed on Netlify</a> <br/> 
 </div>
-
----
-
-## About
-
-<p>Microposts is small web app done in plain JS, using bootstrap, json-server, webapack and babel. This is the final exercise in JavaScript course.</p>
-
-<p>Working app is deployed on Netlify. Run "npm run json:server" to start local server.</p>
 
 ## Technology
 
