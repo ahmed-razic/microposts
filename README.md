@@ -13,9 +13,9 @@
     background: #F1DEDE;
     border-radius:10px;
     font-size:0.85rem;
-    font-weight:600;">deployed on Netlify.</a> <br/> 
-</div>
-Run "npm run json:server" to start local server.</p>
+    font-weight:600;
+    display:inline;">deployed on Netlify.</a> <br/> 
+</div> Run "npm run json:server" to start local server.</p>
 
 
 
