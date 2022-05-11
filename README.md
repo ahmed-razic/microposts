@@ -7,17 +7,19 @@
 
 <p>Microposts is small web app done in plain JS, using bootstrap, json-server, webapack and babel. This is the final exercise in JavaScript course.</p>
 
-<p>Working app is deployed on Netlify. Run "npm run json:server" to start local server.</p>
-
-<div>
+<p>Working app is <div>
 <a href="https://harmonious-nasturtium-d540d5.netlify.app/" target="_blank" rel="noopener noreferrer"
     style="padding:0.5rem 0.7rem;
     color: black;
     background: #F1DEDE;
     border-radius:10px;
     font-size:0.85rem;
-    font-weight:600;">Deployed on Netlify</a> <br/> 
+    font-weight:600;">deployed on Netlify</a> <br/> 
 </div>
+    
+    . Run "npm run json:server" to start local server.</p>
+
+
 
 ## Technology
 
